@@ -27,6 +27,8 @@ namespace Modas
             }
 
             app.UseMvcWithDefaultRoute();
+            app.UseStaticFiles();
+
         }
     }
 }
